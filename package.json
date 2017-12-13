@@ -1,0 +1,29 @@
+{
+  "name": "freecodecamp-codepen-recipebox",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eol": "^0.1.2",
+    "gulp-watch": "^4.3.11",
+    "jquery": "^3.2.1",
+    "npm-run-all": "^4.0.2",
+    "react-scripts": "1.0.7",
+    "tether": "^1.4.0"
+  },
+  "scripts": {
+    "concat-js": "gulp concat-js",
+    "concat-js-watch": "gulp concat-js-watch",
+    "start-react": "react-scripts start",
+    "start": "npm-run-all -p concat-js-watch start-react",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

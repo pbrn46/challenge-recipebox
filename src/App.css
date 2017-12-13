@@ -1,0 +1,20 @@
+body {
+  background-color: #631;
+}
+
+.recipeCard .card-header {
+  background-color: #ddd;
+}
+.recipeCard .card-header:hover {
+  background-color: #eee;
+}
+
+.recipeCard .card-header .expand-helper,
+.recipeCard .card-header.collapsed .hide-helper {
+  display: none;
+}
+
+.recipeCard .card-header.collapsed .expand-helper,
+.recipeCard .card-header .hide-helper {
+  display: inline;
+}
